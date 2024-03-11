@@ -121,7 +121,7 @@ bool ubah() {
 
         int index = nomor - 1;
 
-        cout << "Data ditemukan! Silakan masukkan data baru:" << endl;
+        cout << "\nData ditemukan! Silakan masukkan data baru:" << endl;
         cout << "Tipe barang (Jersey/Apparel/Aksesoris): ";
         getline(cin, databrg[index][0]);
         cout << "Nama barang: ";
