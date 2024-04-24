@@ -437,7 +437,7 @@ bool hapus(merchandise merchand[], int &jumlahdata) {
     else {
         while (true) {
             tampilkan(merchand);
-            cout << "\nPilih nomor data yang ingin diubah : ";
+            cout << "\nPilih nomor data yang ingin dihapus : ";
             int pilihan;
             cin >> pilihan;
             cin.ignore();
